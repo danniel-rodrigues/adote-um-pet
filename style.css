@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    font-size: 62.5%; /* 1 rem = 10px */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10rem;
+    border-bottom: 1px solid #cecece;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 600; /*Semi Bold*/
+    font-size: 2rem;
+    padding: 0 10rem 0 10rem;
+}
+
+header ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+header ul li:not(:last-child) {
+    margin-right: 6rem;
+}
+
+header a {
+    text-decoration: none;
+    color: #817f75;
+}
+
+.selected {
+    color: #ff0035;
+}
