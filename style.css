@@ -202,6 +202,56 @@ section#pets-destaque {
     color: #232323;
 }
 
+section#conselhos-adocao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20rem 0 20rem;
+    margin-top: 9rem;
+}
+
+#conselhos-adocao > h2 {
+    font-family: "Pridi", serif;
+    font-weight: 500;
+    font-size: 4rem;
+    color: #333;
+}
+
+#conselhos-adocao > p {
+    font-family: "Urbanist", sans-serif;
+    font-weight: normal;
+    font-size: 2.2rem;
+    color: #817f75;
+}
+
+#conselhos-adocao > #conselhos-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30rem;
+    row-gap: 8rem;
+    margin-top: 9rem;
+}
+
+.regra {
+    text-align: justify;
+    font-family: "Urbanist", sans-serif;
+}
+
+.regra > h3 {
+    font-weight: 500;
+    font-size: 2.8rem;
+    color: #ff0035;
+}
+
+.regra > p {
+    font-weight: normal;
+    font-size: 1.8rem;
+    margin-top: 5px;
+    color: #817f75;
+}
+
 .selected {
     color: #ff0035;
 }
