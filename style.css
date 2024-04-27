@@ -258,7 +258,8 @@ section#incentivo-doacao {
     align-items: center;
     justify-content: space-between;
     padding: 0 10rem 0 10rem;
-    margin-top: 9rem;
+    /* margin-top: 9rem; */
+    margin: 9rem 0 30rem 0;
 }
 
 #incentivo-doacao > div {
@@ -314,6 +315,73 @@ section#incentivo-doacao {
 
 .pets-diversos img {
     padding-right: 2rem;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #232323;
+    color: #fbfbfb;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 300;
+    font-size: 1.8rem;
+    padding: 8rem 10rem;
+}
+
+footer .organizacao-infos {
+    width: 250px;
+}
+
+.organizacao-infos p {
+    margin-top: 3.5rem;
+}
+
+.links-site {
+    margin-top: 5rem;
+    text-transform: uppercase;
+}
+
+.organizacao-infos .links-site a:not(:last-child) {
+    display: block;
+    margin-bottom: 0.8rem;
+}
+
+.organizacao-contatos {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-between;
+    gap: 45px;
+    text-align: right;
+    width: 300px;
+}
+
+.organizacao-contatos #endereco{
+    line-height: 26px;
+}
+
+.organizacao-contatos #telefone p:not(:last-child) {
+    margin-bottom: 0.8rem;
+}
+
+.organizacao-contatos #redes-sociais {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fbfbfb;
+}
+
+#pets-img-para-footer {
+    /* background-color: red; */
+    display: block;
+    margin: -55px auto;
+
 }
 
 .selected {
