@@ -11,13 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Pridi:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header id="header">
         <img src="assets/logo_adote_um_pet.png" alt="Logo da campanha Adote um pet.">
         <ul>
-            <li><a href="#" class="selected">Home</a></li>
-            <li><a href="#">Quem somos</a></li>
-            <li><a href="#">Adoção</a></li>
-            <li><a href="#">Fale conosco</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#pets-destaque">Pets em destaque</a></li>
+            <li><a href="#conselhos-adocao">Sobre adoção</a></li>
+            <li><a href="#incentivo-doacao">Doe</a></li>
         </ul>
     </header>
     <main>
@@ -31,20 +31,6 @@
             <img src="assets/dog_olhar_carismatico.png" alt="Cachorro com olhar carismático.">
         </section>
         <section id="pets-destaque">
-            <div class="painel-contagem">
-                <div id="num-adocoes" class="infos">
-                    <h3>125k +</h3>
-                    <p>Pets foram adotados</p>
-                </div>
-                <div id="num-abrigos" class="infos">
-                    <h3>550 +</h3>
-                    <p>Abrigos de adoção</p>
-                </div>
-                <div id="num-envolvidos" class="infos">
-                    <h3>75 +</h3>
-                    <p>Pessoas envolvidas</p>
-                </div>
-            </div>
             <div id="pets-destacados">
                 <h2>Conheça os pets em destaque</h2>
                 <p>Estes são alguns dos pets que estão em busca de um lar.</p>
@@ -120,10 +106,10 @@
                     <p>Somos uma organização que resgata animais abandonados</p>
                 </div>
                 <div class="links-site">
-                    <a href="#">quem somos</a>
-                    <a href="#">política de adoção</a>
-                    <a href="#">fale conosco</a>
-                    <a href="#">notícias</a>
+                    <a href="#">home</a>
+                    <a href="#pets-destaque">pets em destaque</a>
+                    <a href="#conselhos-adocao">sobre adoção</a>
+                    <a href="#incentivo-doacao">doe</a>
                 </div>
             </div>
             <div class="organizacao-contatos">
@@ -140,5 +126,6 @@
             </div>
         </footer>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
