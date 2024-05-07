@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adote um Pet</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate-on-scroll.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -22,20 +23,20 @@
     </header>
     <main>
         <section id="home">
-            <div>
+            <div class="animate from-left">
                 <h1>VOCÊ</h1>
                 <h2>está pronto para<br>adotar um pet?</h2>
                 <p>Vamos nessa! Procure por pets em<br>abrigos e resgate-os.</p>
                 <button>Adote Agora</button>
             </div>
-            <img src="assets/dog_olhar_carismatico.png" alt="Cachorro com olhar carismático.">
+            <img src="assets/dog_olhar_carismatico.png" class="animate from-right" alt="Cachorro com olhar carismático.">
         </section>
         <section id="pets-destaque">
             <div id="pets-destacados">
-                <h2>Conheça os pets em destaque</h2>
-                <p>Estes são alguns dos pets que estão em busca de um lar.</p>
+                <h2 class="animate">Conheça os pets em destaque</h2>
+                <p class="animate">Estes são alguns dos pets que estão em busca de um lar.</p>
                 <section>
-                    <div class="card">
+                    <div class="card animate from-left">
                         <img src="assets/beagle-puro.png" alt="Beagle puro">
                         <div class="info-pet">
                             <h3>Rosie</h3>
@@ -43,7 +44,7 @@
                             <p>Fêmea, 1 ano e 03 meses</p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card animate">
                         <img src="assets/vira-lata.png" alt="Vira-lata">
                         <div class="info-pet">
                             <h3>Caramelo</h3>
@@ -51,7 +52,7 @@
                             <p>Macho, 2 anos e 09 meses</p>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="card animate from-right">
                         <img src="assets/border-collie.png" alt="Border collie">
                         <div class="info-pet">
                             <h3>Sam</h3>
@@ -63,42 +64,42 @@
             </div>
         </section>
         <section id="conselhos-adocao">
-            <h2>Confira conselhos sobre adoção</h2>
-            <p>Obtenha informações privilegiadas sobre adoção de pets e<br>leve para casa um amigo peludo</p>
+            <h2 class="animate">Confira conselhos sobre adoção</h2>
+            <p class="animate">Obtenha informações privilegiadas sobre adoção de pets e<br>leve para casa um amigo peludo</p>
             <div id="conselhos-container">
-                <div class="regra">
+                <div class="regra animate from-left">
                     <h3>1. Primeira Regra</h3>
                     <p>Certifique-se de estar realmente preparado para o animal que escolher mais tarde</p>
                 </div>
-                <div class="regra">
+                <div class="regra animate from-right">
                     <h3>2. Segunda Regra</h3>
                     <p>Certifique-se de que você está realmente preparado para a saúde do animal que escolher</p>
                 </div>
-                <div class="regra">
+                <div class="regra animate from-left">
                     <h3>3. Terceira Regra</h3>
                     <p>Prepare um lar para o animal que você quer adotar</p>
                 </div>
-                <div class="regra">
+                <div class="regra animate from-right">
                     <h3>4. Quarta Regra</h3>
                     <p>Certifique-se de levar realmente a sério o cuidado com o animal que você escolher</p>
                 </div>
             </div>
         </section>
         <section id="incentivo-doacao">
-            <div>
+            <div class="animate">
                 <img src="assets/logo_adote_um_pet2.png" id="logo" alt="Logo da campanha Adote um Pet.">
                 <h2>Eles merecem ser amados</h2>
                 <p>Todos os animais têm direito a uma vida decente</p>
                 <button>Faça uma doação</button>
             </div>
-            <img src="assets/tres-dogs.png" alt="Três vira-latas na rua.">
-            <div class="pets-diversos">
+            <img src="assets/tres-dogs.png" class="animate" alt="Três vira-latas na rua.">
+            <div class="pets-diversos animate">
                 <img src="assets/tres-gatos.png" alt="Três gatos de rua.">
                 <img src="assets/dog-deitado.png" alt="Cachorro deitado na rua.">
                 <img src="assets/quatro-gatos.png" alt="Quatro gatos de rua olhando para a câmera.">
             </div>
         </section>
-        <img src="assets/pets-footer.png" id="pets-img-para-footer" alt="animais com olhares carismáticos.">
+        <img src="assets/pets-footer.png" id="pets-img-para-footer" class="animate" alt="animais com olhares carismáticos.">
         <footer>
             <div class="organizacao-infos">
                 <div class="logo-descriacao-curta">

@@ -15,6 +15,10 @@ html {
     scroll-padding: 110px;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 header {
     display: flex;
     align-items: center;
@@ -29,6 +33,7 @@ header {
     top: 0;
     transition: .5s;
     background-color: #ffffff77;
+    z-index: 1;
 }
 
 header ul {
@@ -55,8 +60,13 @@ header.scroll {
     height: 5rem;
 }
 
+button {
+    transition: .5s;
+}
+
 button:hover {
     cursor: pointer;
+    scale: 1.05;
 }
 
 section#home {
@@ -157,7 +167,12 @@ section#pets-destaque {
     padding: 2rem 1.5rem 1.5rem 1.5rem;
     margin: 0 6.3rem 0 6.3rem;
     border-radius: 1.2rem;
-    box-shadow: 0 3px 25px 2px #0000001a;
+    box-shadow: 0 3px 25px 2px #0000002d;
+    transition: .5s;
+}
+
+#pets-destacados .card:hover {
+    scale: 1.05;
 }
 
 #pets-destacados .card > img {

@@ -1,0 +1,19 @@
+.animate {
+    opacity: 0;
+    transition: 1.2s;
+    filter: blur(3px);
+}
+
+.animate.from-left {
+    transform: translateX(-100%);
+}
+
+.animate.from-right {
+    transform: translateX(100%);
+}
+
+.animate.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translate(0);
+}
