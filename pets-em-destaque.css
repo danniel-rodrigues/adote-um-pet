@@ -1,0 +1,61 @@
+section#pets-em-destaque {
+    width: 100%;
+    height: calc(100vh - 6rem);
+    text-align: center;
+    margin-top: 9rem;
+}
+
+#pets-em-destaque h2 {
+    font-family: "Pridi", serif;
+    font-weight: 500;
+    font-size: 4rem;
+    color: var(--cor-texto-negrito);
+}
+
+#pets-em-destaque > p {
+    font-family: "Urbanist", sans-serif;
+    font-size: 2rem;
+    color: var(--cor-texto-regular);
+}
+
+.destaques {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 6rem 15rem 0 15rem;
+}
+
+.destaques .card {
+    background-color: #fbfbfb;
+    border-radius: 1.2rem;
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+    font-family: "Urbanist", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.1);
+}
+
+.destaques .card > img {
+    height: 230px;
+    margin-bottom: 1rem;
+}
+
+.destaques .card > h3 {
+    font-weight: 500;
+    font-size: 2.8rem;
+    color: var(--cor-destaque);
+} 
+
+.destaques .card > h4 {
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #232323;
+}
+
+.destaques .card > p {
+    font-size: 1.5rem;
+    color: var(--cor-texto-regular);
+}
+

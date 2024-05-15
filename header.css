@@ -2,12 +2,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 8rem;
+    height: 6rem;
     padding: 0 10rem;
     font-family: "Urbanist", sans-serif;
     font-weight: 600;
     font-size: 2rem;
     border-bottom: 1px solid #cecece;
+    background-color: #fbfbfbd8;
+    position: sticky;
+    top: 0;
 }
 
 header .desktop-menu ul li {
