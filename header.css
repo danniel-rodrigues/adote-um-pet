@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10rem;
+    padding: 0 10rem;
+    font-family: "Urbanist", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    border-bottom: 1px solid #cecece;
+}
+
+header .desktop-menu ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+header .desktop-menu ul li:not(:last-child) {
+    margin-right: 6rem;
+}
+
+header .desktop-menu ul li a {
+    text-decoration: none;
+    padding: 1rem;
+    color: var(--cor-nav-item-desktop);
+    transition: .3s color ease-in-out;
+}
+
+header .desktop-menu ul li a:hover {
+    color: var(--cor-destaque);
+}
+
+/* MENU MOBILE */
+header .mobile-menu {
+    display: none;
+}
