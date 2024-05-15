@@ -1,0 +1,77 @@
+section#home {
+    width: 100%;
+    height: calc(100vh - 8rem);
+}
+
+.cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 10rem 0 10rem;
+}
+
+.cta img {
+    width: 380px;
+}
+
+.cta .home-info {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    padding: 1rem;
+}
+
+.home-info h1 {
+    font-family: "Pridi", serif;
+    font-weight: 600;
+    font-size: 9.2rem;
+    color: var(--cor-destaque);
+    line-height: 8rem;
+}
+
+.home-info h2 {
+    font-family: "Pridi", serif;
+    font-weight: 500;
+    font-size: 4.8rem;
+    color: var(--cor-texto-negrito);
+    line-height: 4.9rem;
+    margin-bottom: 3rem;
+}
+
+.home-info p {
+    font-family: "Urbanist", sans-serif;
+    font-size: 2.4rem;
+    color: var(--cor-texto-regular);
+    margin-bottom: 3rem;
+}
+
+.dados-campanha {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #efefef;
+    padding: 2rem 10rem 2rem 10rem;
+    font-family: "Urbanist", sans-serif;
+    box-shadow: 0 7px 8px 0 rgba(0, 0, 0, 0.15);
+}
+
+.dados-campanha .dado {
+    text-align: center;
+}
+
+.dados-campanha .dado:not(:last-child) {
+    border-right: 2px solid #c5c5c5;
+    padding-right: 15rem;
+}
+
+.dado h2 {
+    font-weight: 500;
+    font-size: 2.8rem;
+    color: var(--cor-destaque);
+}
+
+.dado p {
+    font-weight: 500;
+    color: var(--cor-texto-regular);
+    font-size: 1.4rem;
+}

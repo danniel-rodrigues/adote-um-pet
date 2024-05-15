@@ -2,7 +2,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 10rem;
+    height: 8rem;
     padding: 0 10rem;
     font-family: "Urbanist", sans-serif;
     font-weight: 600;
@@ -22,7 +22,7 @@ header .desktop-menu ul li:not(:last-child) {
 header .desktop-menu ul li a {
     text-decoration: none;
     padding: 1rem;
-    color: var(--cor-nav-item-desktop);
+    color: var(--cor-texto-regular);
     transition: .3s color ease-in-out;
 }
 

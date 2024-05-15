@@ -11,6 +11,19 @@
 
 :root {
     font-size: 62.5%; /* 1rem = 10px */
-    --cor-nav-item-desktop: #817f75;
     --cor-destaque: #ff0035;
+    --cor-texto-negrito: #333333;
+    --cor-texto-regular: #817f75;
+}
+
+button {
+    cursor: pointer;
+    font-family: "Urbanist", sans-serif;
+    font-size: 2.4rem;
+    background-color: var(--cor-destaque);
+    border: none;
+    outline: none;
+    border-radius: 5rem;
+    color: #fbfbfb;
+    height: 5.4rem;
 }
