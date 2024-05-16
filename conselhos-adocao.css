@@ -1,0 +1,49 @@
+section#conselhos-adocao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 6rem);
+    margin-top: 9rem;
+    text-align: center;
+}
+
+#conselhos-adocao h2 {
+    font-family: "Pridi", serif;
+    font-weight: 500;
+    font-size: 4rem;
+    color: var(--cor-texto-negrito);
+}
+
+#conselhos-adocao > p {
+    font-family: "Urbanist", sans-serif;
+    font-size: 2rem;
+    color: var(--cor-texto-regular);
+}
+
+.regras {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 6rem;
+    column-gap: 20rem;
+    margin-top: 8rem;
+    text-align: left;
+    font-family: "Urbanist", sans-serif;
+}
+
+.regra {
+    width: 320px;
+    text-align: justify;
+}
+
+.regra h3{
+    font-weight: 500;
+    font-size: 2.8rem;
+    margin-bottom: 1.3rem;
+    color: var(--cor-destaque);
+}
+
+.regra p {
+    font-size: 1.8rem;
+    color: var(--cor-texto-regular);
+}
