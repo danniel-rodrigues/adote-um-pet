@@ -16,6 +16,11 @@
     --cor-texto-regular: #817f75;
 }
 
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 60px;
+}
+
 button {
     cursor: pointer;
     font-family: "Urbanist", sans-serif;
