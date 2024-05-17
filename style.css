@@ -26,4 +26,5 @@ button {
     border-radius: 5rem;
     color: #fbfbfb;
     height: 5.4rem;
+    box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.1);
 }

@@ -1,0 +1,73 @@
+section#doacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100vh - 6rem);
+    padding: 0 10rem;
+    margin-top: 9rem;
+}
+
+.info-doacao-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.info-doacao-container .info-doacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    align-self: flex-start;
+    width: 260px;
+}
+
+.info-doacao-container img {
+    height: 95%;
+}
+
+#logo, .info-doacao > button {
+    align-self: flex-start;
+}
+
+.info-doacao img {
+    margin-top: 1rem;
+}
+
+.info-doacao h2 {
+    font-family: "Pridi", serif;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 3.3rem;
+    margin-top: 1.8rem;
+    color: var(--cor-texto-negrito);
+}
+
+.info-doacao p {
+    font-family: "Urbanist", sans-serif;
+    font-size: 2rem;
+    margin-top: 1.8rem;
+    margin-bottom: 5rem;
+    color: var(--cor-texto-regular);
+}
+
+.info-doacao > button {
+    padding: 0 2rem;
+    width: 100%;
+}
+
+.animais-rua {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 1rem;
+    overflow: hidden;
+}
+
+.animais-rua img {
+    height: 90%;
+}
