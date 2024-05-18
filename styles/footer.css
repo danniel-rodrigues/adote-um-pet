@@ -9,7 +9,6 @@ footer {
     font-family: "Urbanist", sans-serif;
     font-weight: 300;
     font-size: 1.8rem;
-    margin-top: 200px;
 }
 
 footer a {
@@ -63,10 +62,15 @@ footer a:hover {
 .outras-infos .redes-sociais {
     display: flex;
     align-items: center;
-    line-height: 10px;
     justify-content: space-between;
+    font-size: 32px;
 }
 
 .outras-infos .redes-sociais a:not(:last-child) {
-    margin-right: 1.6rem;
+    margin-right: 1.8rem;
+}
+
+.pets-footer {
+    display: block;
+    margin: 300px auto -53px auto;
 }

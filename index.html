@@ -3,13 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="home.css">
-    <link rel="stylesheet" href="pets-em-destaque.css">
-    <link rel="stylesheet" href="conselhos-adocao.css">
-    <link rel="stylesheet" href="doacao.css">
-    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/animate-on-scroll.css">
     <title>Adote um Pet</title>
 </head>
 <body>
@@ -39,15 +34,15 @@
     <main>
         <section id="home">
             <div class="cta">
-                <div class="home-info">
+                <div class="home-info animate from-left">
                     <h1>VOCÊ</h1>
                     <h2>está pronto para adotar um pet?</h2>
                     <p>Vamos nessa! Procure por pets em abrigos e resgate-os.</p>
                     <button>Adota agora</button>
                 </div>
-                <img src="assets/dog_olhar_carismatico.png" alt="cachorro com olhar carismático.">
+                <img src="assets/dog_olhar_carismatico.png" class="animate from-right" alt="cachorro com olhar carismático.">
             </div>
-            <div class="dados-campanha">
+            <div class="dados-campanha animate">
                 <div class="dado">
                     <h2>125k +</h2>
                     <p>Pets foram adotados</p>
@@ -63,22 +58,22 @@
             </div>
         </section>
         <section id="pets-em-destaque">
-            <h2>Conheça os pets em destaque</h2>
-            <p>Estes são alguns dos pets que estão em busca de um lar</p>
+            <h2 class="animate">Conheça os pets em destaque</h2>
+            <p class="animate">Estes são alguns dos pets que estão em busca de um lar</p>
             <div class="destaques">
-                <div class="card">
+                <div class="card animate from-left">
                     <img src="assets/beagle-puro.png" alt="Cachorro da raça Beagle Puro">
                     <h3>Rosie</h3>
                     <h4>Beagle Puro</h4>
                     <p>Fêmea, 1 ano e 03 meses</p>
                 </div>
-                <div class="card">
+                <div class="card animate">
                     <img src="assets/vira-lata.png" alt="Cachorro vira-lata">
                     <h3>Caramelo</h3>
                     <h4>Vira-lata</h4>
                     <p>Macho, 2 anos e 09 meses</p>
                 </div>
-                <div class="card">
+                <div class="card animate from-right">
                     <img src="assets/border-collie.png" alt="Cachorro da raça Border Collie">
                     <h3>Sam</h3>
                     <h4>Border Collie</h4>
@@ -87,22 +82,22 @@
             </div>
         </section>
         <section id="conselhos-adocao">
-            <h2>Confira conselhos sobre adoção</h2>
-            <p>Obtenha informações privilegiadas sobre adoção de pets e<br>leve para casa um amigo peludo</p>
+            <h2 class="animate">Confira conselhos sobre adoção</h2>
+            <p class="animate">Obtenha informações privilegiadas sobre adoção de pets e<br>leve para casa um amigo peludo</p>
             <div class="regras">
-                <div class="regra">
+                <div class="regra animate from-left">
                     <h3>1. Primeira Regra</h3>
                     <p>Certifique-se de estar realmente preparado para o animal que escolher mais tarde</p>
                 </div>
-                <div class="regra">
+                <div class="regra animate from-right">
                     <h3>2. Segunda Regra</h3>
                     <p>Certifique-se de que você está realmente preparado para a saúde do animal que escolher</p>
                 </div>
-                <div class="regra">
+                <div class="regra animate from-left">
                     <h3>3. Terceira Regra</h3>
                     <p>Prepare um lar para o animal que você quer adotar</p>
                 </div>
-                <div class="regra">
+                <div class="regra animate from-right">
                     <h3>4. Quarta Regra</h3>
                     <p>Certifique-se de levar realmente a sério o cuidado com o animal que você escolher</p>
                 </div>
@@ -110,21 +105,22 @@
         </section>
         <section id="doacao">
             <div class="info-doacao-container">
-                <div class="info-doacao">
+                <div class="info-doacao animate from-left">
                     <img src="assets/logo_adote_um_pet.png" id="logo" alt="Logotipo da campanha.">
                     <h2>Eles merecem ser amados</h2>
                     <p>Todos os animais têm direito a uma vida decente</p>
                     <button>Faça uma doação</button>
                 </div>
-                <img src="assets/tres-dogs.png" alt="Três cachorros vira-latas na rua">
+                <img src="assets/tres-dogs.png" class="animate from-right" alt="Três cachorros vira-latas na rua">
             </div>
-            <div class="animais-rua">
-                <img src="assets/tres-gatos.png" alt="">
-                <img src="assets/dog-deitado.png" alt="">
-                <img src="assets/quatro-gatos.png" alt="">
+            <div class="animais-rua animate">
+                <img src="assets/tres-gatos.png" alt="Três gatos abandonados na rua">
+                <img src="assets/dog-deitado.png" alt="Um cachorro deitado no meio fio da rua">
+                <img src="assets/quatro-gatos.png" alt="Quatro gatos em situação de rua">
             </div>
         </section>
     </main>
+    <img src="assets/pets-footer.png" class="pets-footer animate" alt="Pets com olhares carismáticos">
     <footer>
         <div class="sobre">
             <img src="assets/logo_adote_um_pet_branca.png" alt="Logotipo da campanha">
@@ -143,10 +139,12 @@
             <p>33rd &, W Oxford St, Philadelphia, PA<br>19121, Amerika Serikat</p>
             <p>Ligue para nós<br>(208) 555-0112</p>
             <div class="redes-sociais">
-                <a href="#"><img src="assets/facebook-logo.png" alt="Facebook da campanha"></a>
-                <a href="#"><img src="assets/instagram-logo.png" alt="Instagram da campanha"></a>
+                <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/2a11bbfe65.js" crossorigin="anonymous"></script>
 </body>
 </html>
