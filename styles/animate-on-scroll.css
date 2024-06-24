@@ -1,6 +1,6 @@
 .animate {
     opacity: 0;
-    transition: 1.2s;
+    transition: 1.2s ease;
     filter: blur(3px);
 }
 
