@@ -7,13 +7,16 @@
         display: none;
     }
 
-    /* SEÇÃO HOME*/
+    /* SEÇÃO HOME */
     .cta {
-        padding: 8rem 2rem
+        padding: 4rem 2rem;
+        flex-direction: column;
     }
     
     .cta img {
-        display: none;
+        width: 60%;
+        margin-top: 3rem;
+        margin-bottom: -4rem;
     }
 
     .cta .home-info {
@@ -21,9 +24,17 @@
         padding: 0;
     }
 
+    .home-info h1 {
+        font-size: 8rem;
+    }
+
     .home-info h2 {
-        font-size: 4rem;
+        font-size: 3.5rem;
         line-height: 4rem;
+    }
+
+    .home-info p {
+        font-size: 2rem;
     }
 
     .dados-campanha {
@@ -44,7 +55,7 @@
     }
 
     .dado h2 {
-        font-size: 2.5rem;
+        font-size: 2.8rem;
     }
 
     .dado p {
