@@ -63,6 +63,13 @@ section#home {
 
 .dados-campanha .dado:not(:last-child) {
     border-right: 2px solid #c5c5c5;
+}
+
+.dados-campanha .dado:nth-child(1) {
+    padding-right: 15rem;
+}
+
+.dados-campanha .dado:nth-child(2) {
     padding-right: 15rem;
 }
 

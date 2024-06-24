@@ -13,6 +13,7 @@
 :root {
     font-size: 62.5%; /* 1rem = 10px */
     --cor-destaque: #ff0035;
+    --cor-btn-hover: #c90028;
     --cor-texto-negrito: #333333;
     --cor-texto-regular: #605F57;
 }
@@ -41,5 +42,5 @@ button {
 }
 
 button:hover {
-    transform: scale(1.05);
+    background-color: var(--cor-btn-hover);
 }

@@ -43,11 +43,11 @@ header .desktop-menu ul li a:hover {
 header .mobile-menu {
     position: fixed;
     background-color: #ecececf6;
-    height: 100vh;
     top: 0;
     right: 0;
     /* width: 0%; */
     width: 70%;
+    height: 100vh;
     overflow: hidden;
     transition: .5s;
     z-index: 888888;

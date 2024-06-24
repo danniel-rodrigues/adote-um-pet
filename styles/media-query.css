@@ -6,4 +6,59 @@
     nav.desktop-menu {
         display: none;
     }
+
+    /* SEÇÃO HOME*/
+    .cta {
+        padding: 8rem 2rem
+    }
+    
+    .cta img {
+        display: none;
+    }
+
+    .cta .home-info {
+        width: 100%;
+        padding: 0;
+    }
+
+    .home-info h2 {
+        font-size: 4rem;
+        line-height: 4rem;
+    }
+
+    .dados-campanha {
+        justify-content: space-between;
+        padding: 1rem 2rem;
+    }
+
+    .dados-campanha .dado:nth-child(1) {
+        padding-right: 1rem;
+    }
+
+    .dados-campanha .dado:nth-child(2) {
+        padding: 0 1rem;
+    }
+
+    .dados-campanha .dado:nth-child(3) {
+        padding-left: 1rem;
+    }
+
+    .dado h2 {
+        font-size: 2.5rem;
+    }
+
+    .dado p {
+        font-size: 1.8rem;
+    }
+
+    .pets-footer {
+        width: 80%;
+        margin: 200px auto -27px auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .mobile-menu, .btn-abrir-menu {
+        display: none;
+    }
 }
