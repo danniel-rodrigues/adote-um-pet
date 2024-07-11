@@ -68,7 +68,6 @@
     }
 
     #pets-em-destaque h2 {
-        font-size: 4rem;
         line-height: 4rem;
     }
 
@@ -82,6 +81,29 @@
 
     .destaques .card {
         margin-bottom: 4rem;
+    }
+
+    /* SEÇÃO CONSELHOS PARA ADOÇÃO */
+    section#conselhos-adocao {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: calc(100vh - 6rem);
+        margin-top: 100vh;
+        text-align: center;
+    }
+
+    #conselhos-adocao h2 {
+        line-height: 4rem;
+    }
+
+    #conselhos-adocao p {
+        margin-top: 2rem;
+    }
+
+    .regras {
+        grid-template-columns: 1fr;
     }
 
     .pets-footer {
