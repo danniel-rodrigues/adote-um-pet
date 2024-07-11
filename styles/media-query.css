@@ -85,7 +85,7 @@
 
     /* SEÇÃO CONSELHOS PARA ADOÇÃO */
     section#conselhos-adocao {
-        margin-top: 100vh;
+        margin-top: calc(100vh - 9rem);
         padding: 4rem 2rem;
     }
 
