@@ -101,6 +101,53 @@
         grid-template-columns: 1fr;
     }
 
+    /* SEÇÃO DOAÇÃO */
+    section#doacao {
+        padding: 4rem 2rem;
+        margin-top: 9rem;
+        margin-bottom: 9rem;
+    }
+
+    .info-doacao-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .info-doacao-container > img {
+        width: 100%;
+    }
+
+    .info-doacao-container .info-doacao {
+        width: 100%;
+    }
+
+    .info-doacao > img {
+        width: 70%;
+    }
+
+    .info-doacao p {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .info-doacao > button {
+        padding: 3rem 0;
+        margin-bottom: 4rem;
+        line-height: 0rem;
+    }
+
+    .animais-rua {
+        padding-top: 1rem;
+    }
+
+    .animais-rua img:nth-child(2) {
+        display: none;
+    }
+
+    .animais-rua img {
+        width: calc(50% - 0.5rem)
+    }
+
     .pets-footer {
         width: 80%;
         margin: 200px auto -27px auto;
