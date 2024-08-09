@@ -1,3 +1,4 @@
+/* SMARTPHONES */
 @media screen and (max-width: 768px) {
     header {
         padding: 0 2rem;
@@ -173,6 +174,109 @@
     }
 }
 
+/* TABLETS */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    header {
+        padding: 0 4rem;
+        font-size: 1.8rem;
+    }
+
+    header .desktop-menu ul li:not(:last-child) {
+        margin-right: 3rem;
+    }    
+
+    nav.desktop-menu {
+        display: block;
+    }
+
+    .mobile-menu, .btn-abrir-menu {
+        display: none;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    /* SEÇÃO HOME */
+    section#home {
+        height: calc(100vh - 50rem);
+    }
+
+    .cta {
+        padding: 3rem 4rem;
+        flex-direction: row;
+    }
+
+    .cta img {
+        align-self:center;
+    }
+
+    .cta .home-info {
+        width: 100%;
+    }
+
+    .dados-campanha {
+        width: 100%;
+    }
+
+    .dados-campanha .dado:nth-child(1) {
+        padding-right: 8rem;
+    }
+
+    .dados-campanha .dado:nth-child(2) {
+        padding: 0 8rem;
+    }
+
+    .dados-campanha .dado:nth-child(3) {
+        padding-left: 8rem;
+    }
+
+    .dado h2 {
+        font-size: 3rem;
+    }
+
+    .dado p {
+        font-size: 1.8rem;
+    }
+    
+    /* SEÇÃO PETS EM DESTAQUE */
+    section#pets-em-destaque {
+        padding: 3rem 4rem;
+        margin-top: 0;
+    }
+
+    #pets-em-destaque p {
+        margin-top: 1.8rem;
+        font-size: 2.4rem;
+    }
+
+    .destaques {
+        flex-direction: column;
+    }
+
+    .destaques .card {
+        margin-bottom: 8rem;
+        box-shadow: 4px 7px 20px 11px rgba(0, 0, 0, 0.171);
+    }
+
+    .destaques .card > img {
+        height: 320px;
+    }
+
+    .destaques .card > h3 {
+        font-size: 3.8rem;
+    } 
+    
+    .destaques .card > h4 {
+        font-size: 2.5rem;
+    }
+
+    .destaques .card > p {
+        font-size: 1.8rem;
+    }
+}
+
+/* DESKTOPS e GRANDES TELAS */
 @media screen and (min-width: 992px) {
     .mobile-menu, .btn-abrir-menu {
         display: none;
