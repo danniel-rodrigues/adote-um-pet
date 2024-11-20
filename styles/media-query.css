@@ -294,7 +294,7 @@
   /* SEÇÃO DE DOÇÃO */
   section#doacao {
     padding: 3rem 4rem;
-    margin-top: calc(100vh - 205rem);
+    margin-top: calc(100vh - 210rem);
   }
 
   .info-doacao-container img {
@@ -324,6 +324,14 @@
   .animais-rua img {
     height: 65%;
     padding: 5px;
+  }
+
+  /* FOOTER */
+  footer {
+    padding: 8rem 5rem;
+  }
+  .pets-footer {
+    margin-top: -100px;
   }
 }
 
