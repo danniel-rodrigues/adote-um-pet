@@ -290,6 +290,41 @@
   .regra {
     width: 300px;
   }
+
+  /* SEÇÃO DE DOÇÃO */
+  section#doacao {
+    padding: 3rem 4rem;
+    margin-top: calc(100vh - 205rem);
+  }
+
+  .info-doacao-container img {
+    height: 60%;
+  }
+
+  .info-doacao {
+    margin-right: 25px;
+  }
+
+  .info-doacao h2 {
+    font-size: 3.3rem;
+  }
+
+  .info-doacao > button {
+    font-size: 2rem;
+    width: 90%;
+    margin-top: -35px;
+  }
+
+  .animais-rua {
+    /* background-color: red; */
+    padding-top: 0;
+    margin-top: -60px;
+  }
+
+  .animais-rua img {
+    height: 65%;
+    padding: 5px;
+  }
 }
 
 /* DESKTOPS e GRANDES TELAS */
