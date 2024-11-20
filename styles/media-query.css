@@ -1,284 +1,344 @@
 /* SMARTPHONES */
 @media screen and (max-width: 768px) {
-    header {
-        padding: 0 2rem;
-        border: none;
-    }
+  header {
+    padding: 0 2rem;
+    border: none;
+  }
 
-    nav.desktop-menu {
-        display: none;
-    }
+  nav.desktop-menu {
+    display: none;
+  }
 
-    /* SEÇÃO HOME */
-    .cta {
-        padding: 4rem 2rem;
-        flex-direction: column;
-    }
-    
-    .cta img {
-        width: 60%;
-        margin-top: 3rem;
-        margin-bottom: -4rem;
-    }
+  /* SEÇÃO HOME */
+  .cta {
+    padding: 4rem 2rem;
+    flex-direction: column;
+  }
 
-    .cta .home-info {
-        width: 100%;
-        padding: 0;
-    }
+  .cta img {
+    width: 60%;
+    margin-top: 3rem;
+    margin-bottom: -4rem;
+  }
 
-    .home-info h1 {
-        font-size: 8rem;
-    }
+  .cta .home-info {
+    width: 100%;
+    padding: 0;
+  }
 
-    .home-info h2 {
-        font-size: 3.5rem;
-        line-height: 4rem;
-    }
+  .home-info h1 {
+    font-size: 8rem;
+  }
 
-    .home-info p {
-        font-size: 2rem;
-    }
+  .home-info h2 {
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
 
-    .dados-campanha {
-        justify-content: space-between;
-        padding: 1rem 2rem;
-    }
+  .home-info p {
+    font-size: 2rem;
+  }
 
-    .dados-campanha .dado:nth-child(1) {
-        padding-right: 1rem;
-    }
+  .dados-campanha {
+    justify-content: space-between;
+    padding: 1rem 2rem;
+  }
 
-    .dados-campanha .dado:nth-child(2) {
-        padding: 0 1rem;
-    }
+  .dados-campanha .dado:nth-child(1) {
+    padding-right: 1rem;
+  }
 
-    .dados-campanha .dado:nth-child(3) {
-        padding-left: 1rem;
-    }
+  .dados-campanha .dado:nth-child(2) {
+    padding: 0 1rem;
+  }
 
-    .dado h2 {
-        font-size: 2.8rem;
-    }
+  .dados-campanha .dado:nth-child(3) {
+    padding-left: 1rem;
+  }
 
-    .dado p {
-        font-size: 1.8rem;
-    }
+  .dado h2 {
+    font-size: 2.8rem;
+  }
 
-    /* SEÇÃO PETS EM DESTAQUE */
-    section#pets-em-destaque {
-        padding: 4rem 2rem;
-    }
+  .dado p {
+    font-size: 1.8rem;
+  }
 
-    #pets-em-destaque h2 {
-        line-height: 4rem;
-    }
+  /* SEÇÃO PETS EM DESTAQUE */
+  section#pets-em-destaque {
+    padding: 4rem 2rem;
+  }
 
-    #pets-em-destaque p {
-        margin-top: 2rem;
-    }
+  #pets-em-destaque h2 {
+    line-height: 4rem;
+  }
 
-    .destaques {
-        flex-direction: column;
-    }
+  #pets-em-destaque p {
+    margin-top: 2rem;
+  }
 
-    .destaques .card {
-        margin-bottom: 4rem;
-    }
+  .destaques {
+    flex-direction: column;
+  }
 
-    /* SEÇÃO CONSELHOS PARA ADOÇÃO */
-    section#conselhos-adocao {
-        margin-top: calc(100vh - 9rem);
-        padding: 4rem 2rem;
-    }
+  .destaques .card {
+    margin-bottom: 4rem;
+  }
 
-    #conselhos-adocao h2 {
-        line-height: 4rem;
-    }
+  /* SEÇÃO CONSELHOS PARA ADOÇÃO */
+  section#conselhos-adocao {
+    margin-top: calc(100vh - 9rem);
+    padding: 4rem 2rem;
+  }
 
-    #conselhos-adocao p {
-        margin-top: 2rem;
-    }
+  #conselhos-adocao h2 {
+    line-height: 4rem;
+  }
 
-    .regras {
-        grid-template-columns: 1fr;
-    }
+  #conselhos-adocao p {
+    margin-top: 2rem;
+  }
 
-    /* SEÇÃO DOAÇÃO */
-    section#doacao {
-        padding: 4rem 2rem;
-        margin-top: 9rem;
-    }
+  .regras {
+    grid-template-columns: 1fr;
+  }
 
-    .info-doacao-container {
-        flex-direction: column;
-        justify-content: center;
-    }
-    
-    .info-doacao-container > img {
-        width: 100%;
-    }
+  /* SEÇÃO DOAÇÃO */
+  section#doacao {
+    padding: 4rem 2rem;
+    margin-top: 9rem;
+  }
 
-    .info-doacao-container .info-doacao {
-        width: 100%;
-    }
+  .info-doacao-container {
+    flex-direction: column;
+    justify-content: center;
+  }
 
-    .info-doacao > img {
-        width: 70%;
-    }
+  .info-doacao-container > img {
+    width: 100%;
+  }
 
-    .info-doacao p {
-        font-size: 2rem;
-        margin-bottom: 2rem;
-    }
+  .info-doacao-container .info-doacao {
+    width: 100%;
+  }
 
-    .info-doacao > button {
-        padding: 3rem 0;
-        margin-bottom: 4rem;
-        line-height: 0rem;
-    }
+  .info-doacao > img {
+    width: 70%;
+  }
 
-    .animais-rua {
-        padding-top: 1rem;
-    }
+  .info-doacao p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
 
-    .animais-rua img:nth-child(2) {
-        display: none;
-    }
+  .info-doacao > button {
+    padding: 3rem 0;
+    margin-bottom: 4rem;
+    line-height: 0rem;
+  }
 
-    .animais-rua img {
-        width: calc(50% - 0.5rem)
-    }
+  .animais-rua {
+    padding-top: 1rem;
+  }
 
-    /* FOOTER */
-    footer {
-        padding: 4rem 2rem;
-        font-size: 1.5rem;
-    }
+  .animais-rua img:nth-child(2) {
+    display: none;
+  }
 
-    .sobre img {
-        width: 75%;
-    }
+  .animais-rua img {
+    width: calc(50% - 0.5rem);
+  }
 
-    .sobre p {
-        line-height: 2rem;
-        width: 75%;
-    }
+  /* FOOTER */
+  footer {
+    padding: 4rem 2rem;
+    font-size: 1.5rem;
+  }
 
-    .outras-infos p {
-        line-height: 2rem;
-    }
+  .sobre img {
+    width: 75%;
+  }
 
-    .pets-footer {
-        width: 80%;
-        margin: 200px auto -27px auto;
-    }
+  .sobre p {
+    line-height: 2rem;
+    width: 75%;
+  }
+
+  .outras-infos p {
+    line-height: 2rem;
+  }
+
+  .pets-footer {
+    width: 80%;
+    margin: 200px auto -27px auto;
+  }
 }
 
 /* TABLETS */
 @media screen and (min-width: 768px) and (max-width: 992px) {
-    header {
-        padding: 0 4rem;
-        font-size: 1.8rem;
-    }
+  header {
+    padding: 0 4rem;
+    font-size: 1.8rem;
+  }
 
-    header .desktop-menu ul li:not(:last-child) {
-        margin-right: 3rem;
-    }    
+  header .desktop-menu ul li:not(:last-child) {
+    margin-right: 3rem;
+  }
 
-    nav.desktop-menu {
-        display: block;
-    }
+  nav.desktop-menu {
+    display: block;
+  }
 
-    .mobile-menu, .btn-abrir-menu {
-        display: none;
-    }
+  .mobile-menu,
+  .btn-abrir-menu {
+    display: none;
+  }
 
-    section {
-        width: 100%;
-    }
+  section {
+    width: 100%;
+  }
 
-    /* SEÇÃO HOME */
-    section#home {
-        height: calc(100vh - 50rem);
-    }
+  /* SEÇÃO HOME */
+  section#home {
+    height: calc(100vh - 50rem);
+  }
 
-    .cta {
-        padding: 3rem 4rem;
-        flex-direction: row;
-    }
+  .cta {
+    padding: 3rem 4rem;
+    flex-direction: row;
+  }
 
-    .cta img {
-        align-self:center;
-    }
+  .cta img {
+    align-self: center;
+  }
 
-    .cta .home-info {
-        width: 100%;
-    }
+  .cta .home-info {
+    width: 100%;
+  }
 
-    .dados-campanha {
-        width: 100%;
-    }
+  .dados-campanha {
+    width: 100%;
+  }
 
-    .dados-campanha .dado:nth-child(1) {
-        padding-right: 8rem;
-    }
+  .dados-campanha .dado:nth-child(1) {
+    padding-right: 8rem;
+  }
 
-    .dados-campanha .dado:nth-child(2) {
-        padding: 0 8rem;
-    }
+  .dados-campanha .dado:nth-child(2) {
+    padding: 0 8rem;
+  }
 
-    .dados-campanha .dado:nth-child(3) {
-        padding-left: 8rem;
-    }
+  .dados-campanha .dado:nth-child(3) {
+    padding-left: 8rem;
+  }
 
-    .dado h2 {
-        font-size: 3rem;
-    }
+  .dado h2 {
+    font-size: 3rem;
+  }
 
-    .dado p {
-        font-size: 1.8rem;
-    }
-    
-    /* SEÇÃO PETS EM DESTAQUE */
-    section#pets-em-destaque {
-        padding: 3rem 4rem;
-        margin-top: 0;
-    }
+  .dado p {
+    font-size: 1.8rem;
+  }
 
-    #pets-em-destaque p {
-        margin-top: 1.8rem;
-        font-size: 2.4rem;
-    }
+  /* SEÇÃO PETS EM DESTAQUE */
+  section#pets-em-destaque {
+    padding: 3rem 4rem;
+    margin-top: 0;
+  }
 
-    .destaques {
-        flex-direction: column;
-    }
+  #pets-em-destaque p {
+    margin-top: 1.8rem;
+    font-size: 2.4rem;
+  }
 
-    .destaques .card {
-        margin-bottom: 8rem;
-        box-shadow: 4px 7px 20px 11px rgba(0, 0, 0, 0.171);
-    }
+  .destaques {
+    flex-direction: column;
+  }
 
-    .destaques .card > img {
-        height: 320px;
-    }
+  .destaques .card {
+    margin-bottom: 8rem;
+    box-shadow: 4px 7px 20px 11px rgba(0, 0, 0, 0.171);
+  }
 
-    .destaques .card > h3 {
-        font-size: 3.8rem;
-    } 
-    
-    .destaques .card > h4 {
-        font-size: 2.5rem;
-    }
+  .destaques .card > img {
+    height: 320px;
+  }
 
-    .destaques .card > p {
-        font-size: 1.8rem;
-    }
+  .destaques .card > h3 {
+    font-size: 3.8rem;
+  }
+
+  .destaques .card > h4 {
+    font-size: 2.5rem;
+  }
+
+  .destaques .card > p {
+    font-size: 1.8rem;
+  }
+
+  /* SEÇÃO CONSELHOS PARA ADOÇÃO */
+  section#conselhos-adocao {
+    padding: 3rem 4rem;
+    margin-top: calc(100vh - 40rem);
+  }
+
+  .regras {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 8rem;
+  }
+
+  .regra {
+    width: 300px;
+  }
+
+  /* SEÇÃO DE DOÇÃO */
+  section#doacao {
+    padding: 3rem 4rem;
+    margin-top: calc(100vh - 210rem);
+  }
+
+  .info-doacao-container img {
+    height: 60%;
+  }
+
+  .info-doacao {
+    margin-right: 25px;
+  }
+
+  .info-doacao h2 {
+    font-size: 3.3rem;
+  }
+
+  .info-doacao > button {
+    font-size: 2rem;
+    width: 90%;
+    margin-top: -35px;
+  }
+
+  .animais-rua {
+    /* background-color: red; */
+    padding-top: 0;
+    margin-top: -60px;
+  }
+
+  .animais-rua img {
+    height: 65%;
+    padding: 5px;
+  }
+
+  /* FOOTER */
+  footer {
+    padding: 8rem 5rem;
+  }
+  .pets-footer {
+    margin-top: -100px;
+  }
 }
 
 /* DESKTOPS e GRANDES TELAS */
 @media screen and (min-width: 992px) {
-    .mobile-menu, .btn-abrir-menu {
-        display: none;
-    }
+  .mobile-menu,
+  .btn-abrir-menu {
+    display: none;
+  }
 }
